@@ -1,0 +1,91 @@
+<!-- ************************************************************************
+Daniel Munoz
+MACONDO
+
+************************************************************************ -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head class="no-skrollr">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <title>Too Soh</title>
+
+  <!-- **************************- LINKS -**********************************-->
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <!-- jQuery  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- jQuery UI -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+  <!-- My Javascript  -->
+  <script src="js/script.js" content="text/javascript"></script>
+
+  <!-- ScrollMagic  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+  <script src="js/ScrollMagic.min.js"></script>
+  <script type="text/javascript" src="dist/skrollr.min.js"></script>
+
+  <!-- Animation Plug-in  -->
+  <script src="js/plugins/animation.gsap.min.js"></script>
+
+</head>
+
+
+  <!-- **************************- BODY -**********************************-->
+
+<body>
+  <div id="header" data-200="opacity:0.0;" data-400="opacity:1;">
+    <a href="index.html"><p id="about">About us</p></a>
+    <a href="shop.html"><p id="shop">Shop</p></a>
+    <a href="make.html"><p id="make">Make your own Clothing</p></a>
+    <a href="patterns.html"><p id="patterns">Patterns</p></a>
+    <a href="locations.html"><p id="locations">Locations</p></a>
+  </div>
+
+<div id="container">
+    <div id="skrollr-body">
+
+<img id="logo" data-0="margin-top: -39%; z-index:-2; " data-400=" margin-top: -60%; z-index:-2;" src="images/logo.png"> </img>
+
+  <img id="grid" data-0="opacity:0.9;" data-100="opacity:0;" src="images/grid.png">
+
+  <div id="video2" data-0="opacity:1;" data-400="opacity:1;">
+  </div>
+
+    </div>
+    </div>
+    <img id="logo1" src="images/logos/brother.png">
+    <img id="logo2" src="images/logos/cactus.png">
+    <img id="logo3" src="images/logos/concordia.png">
+    <img id="logo4" src="images/logos/dasa.png">
+    <img id="logo5" src="images/logos/deserres.png">
+    <img id="logo6" src="images/logos/e.png">
+    <img id="logo7" src="images/logos/janome.png">
+    <img id="logo8" src="images/logos/lasalle.png">
+    <img id="logo9" src="images/logos/mcgill.png">
+    <img id="logo10" src="images/logos/montreal.png">
+    <img id="logo11" src="images/logos/rubiks.png">
+    <img id="logo12" src="images/logos/velcro.png">
+    <img id="logo13" src="images/logos/ykk.png">
+
+</body>
+
+
+  	<script type="text/javascript">
+  	skrollr.init({
+  		render: function(data) {
+  			//Loop
+  			data.curTop === data.maxTop
+  		}
+  	});
+  	</script>
+
+
+</html>

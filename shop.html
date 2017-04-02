@@ -1,0 +1,85 @@
+<!-- ************************************************************************
+Daniel Munoz
+MACONDO
+
+************************************************************************ -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head class="no-skrollr">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <title>Too Soh</title>
+
+  <!-- **************************- LINKS -**********************************-->
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <!-- jQuery  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- jQuery UI -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+  <!-- My Javascript  -->
+  <script src="js/script.js" content="text/javascript"></script>
+
+  <!-- ScrollMagic  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+  <script src="js/ScrollMagic.min.js"></script>
+  <script type="text/javascript" src="dist/skrollr.min.js"></script>
+
+  <!-- Animation Plug-in  -->
+  <script src="js/plugins/animation.gsap.min.js"></script>
+
+</head>
+
+
+  <!-- **************************- BODY -**********************************-->
+
+<body>
+  <div id="header" data-200="opacity:0.0;" data-400="opacity:1;">
+    <a href="index.html"><p id="about">About us</p></a>
+    <a href="shop.html"><p id="shop">Shop</p></a>
+    <a href="make.html"><p id="make">Make your own Clothing</p></a>
+    <a href="patterns.html"><p id="patterns">Patterns</p></a>
+    <a href="locations.html"><p id="locations">Locations</p></a>
+  </div>
+
+<div id="container">
+    <div id="skrollr-body">
+
+<img id="logo" data-0="margin-top: -39%; z-index:-2; " data-400=" margin-top: -60%; z-index:-2;" src="images/logo.png"> </img>
+
+  <img id="grid" data-0="opacity:0.9;" data-100="opacity:0;" src="images/grid.png">
+      <img id="promo1" data-0="margin-left:-60%;" data-500="margin-left:10%;" src="images/promo1.jpg">
+      <p id="p1" data-200="opacity:0;" data-700="opacity:0.9;">Woman Spring Summer 2017 Denim Real Collection.</p>
+      <img id="pricer1" data-0="margin-left:110%;" data-500="margin-left:66%;" src="images/pricer.png">
+
+      <img id="promo2" data-700="margin-left:100%;" data-1200="margin-left:60%;" src="images/promo2.jpg">
+      <p id="p2"data-700="opacity:0;" data-1200="opacity:0.9;">Woman Spring Summer 2017 Denim Real Collection. Design by Mia Fikuda</p>
+      <img id="pricer2" data-700="margin-left:-60%;" data-1200="margin-left:16%;" src="images/pricer.png">
+
+      <img id="promo3" data-1400="margin-left:-60%;" data-2000="margin-left:10%;" src="images/promo3.jpg">
+      <p id="p3"data-1400="opacity:0;" data-2000="opacity:0.9;">Woman Spring Summer 2017 Denim Real Collection. Design by Mia Fikuda</p>
+      <img id="pricer3" data-1400="margin-left:110%;" data-2000="margin-left:66%;" src="images/pricer.png">
+    </div>
+    </div>
+<img id="logo_red" src="images/logo_red.png"> </img>
+</body>
+
+
+  	<script type="text/javascript">
+  	skrollr.init({
+  		render: function(data) {
+  			//Loop
+  			data.curTop === data.maxTop
+  		}
+  	});
+  	</script>
+
+
+</html>

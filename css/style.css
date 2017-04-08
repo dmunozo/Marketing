@@ -208,6 +208,12 @@ h2{
   padding-left: 2%;
 }
 
+#square{
+  position: absoulte;
+  max-width: 100%;
+  margin-left: 2%;
+}
+
 
 #logo_red{
   position: static;

@@ -258,7 +258,7 @@ h2{
 }
 
 #member{
-  position:static;
+  position:relative;
   margin-top: 10%;
   margin-left: 10%;
   padding-bottom: 12%;
